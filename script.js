@@ -4,7 +4,7 @@ var stars = 5;
 var stairs = 0;
 
 while (stairs<stars){
-	console.log('*')
+	console.log('^')
 	stairs++;
 }
 
@@ -13,7 +13,7 @@ var laps = 5;
 var simple = 0;
 
 while (laps<simple){
-	console.log('*****')
+	console.log('^^^^^')
 	simple++;
 }
 //tangga bintang
@@ -23,10 +23,10 @@ var inject = 1;
 var i = 0;
 
 while (i<tool) {
-  var pyramid = '*';
+  var pyramid = '^';
   var j=0;
   while (j<i) {
-    pyramid = pyramid +'*';
+    pyramid = pyramid +'^';
     j++;
   }
   console.log(pyramid);
