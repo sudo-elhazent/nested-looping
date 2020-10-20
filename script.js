@@ -4,7 +4,7 @@ var stars = 5;
 var stairs = 0;
 
 while (stairs<stars){
-	console.log('^')
+	console.log('*')
 	stairs++;
 }
 
@@ -24,10 +24,10 @@ var inject = 1;
 var i = 0;
 
 while (i<tool) {
-  var pyramid = '^';
+  var pyramid = '*';
   var j=0;
   while (j<i) {
-    pyramid = pyramid +'^';
+    pyramid = pyramid +'*';
     j++;
   }
   console.log(pyramid);
